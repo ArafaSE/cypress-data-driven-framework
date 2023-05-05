@@ -1,0 +1,37 @@
+[
+  {
+    "isNewCustomer": true,
+    "productNum": 223,
+    "colorsNumbers": [
+      "1",
+      "4"
+    ],
+    "productSize": 4,
+    "name": "Mohamed",
+    "email": "mohamed.arafa.swt@gmail.com",
+    "preferredContacts": [
+      "email",
+      "Phone"
+    ],
+    "Questions": "Do you have a return policy?",
+    "deliveryDate": "2023-05-10",
+    "deliveryTime": "12:30"
+  },
+  {
+    "isNewCustomer": false,
+    "productNum": 116,
+    "colorsNumbers": [
+      "2",
+      "3"
+    ],
+    "productSize": 6,
+    "name": "Joe",
+    "email": "joe.adrian@gmail.com",
+    "preferredContacts": [
+      "email"
+    ],
+    "Questions": "Need it with fastest delivery",
+    "deliveryDate": "2023-05-15",
+    "deliveryTime": "03:45"
+  }
+]
