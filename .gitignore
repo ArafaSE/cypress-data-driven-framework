@@ -133,3 +133,7 @@ dist
 screenshots/
 videos/
 *.mp4
+
+# Reports
+allure-results/
+allure-report/

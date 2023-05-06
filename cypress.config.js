@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 const xlsx = require('node-xlsx');
 const fs = require('fs');
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 
 module.exports = defineConfig({
   e2e: {
@@ -25,8 +26,14 @@ module.exports = defineConfig({
                     reject(e);
                 }
             })
-        }
+        },
       });
+      allureWriter(on, config);
+      return config;
     },
+    env: {
+      allure: true,
+      allureReuseAfterSpec: false
+    }
   },
 });

@@ -15,15 +15,15 @@ describe('Order Request Form', () => {
       cy.visit(form_url)
     })
     /** Run test for each order added in the JSON file */
-    ordersData.forEach((order) => {
-      it('User can request order using JSON file data', () => {
+    ordersData.forEach((order, index) => {
+      it('TC1-order-' + index + ' User can request order using JSON file data', () => {
         cy.fillOrderData(order)
         cy.verifyOrderCreation()
       });
     })
    /** Run test for each order added in the converted JSON file */
-    ordersJsonDataFromXlsx.forEach((order) => {
-      it('User can request order using converted JSON file from xlsx data', () => {
+    ordersJsonDataFromXlsx.forEach((order, index) => {
+      it('TC2-order-' + index + ' User can request order using converted JSON file from xlsx data', () => {
         cy.fillOrderData(order)
         cy.verifyOrderCreation()
       });

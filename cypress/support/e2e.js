@@ -14,6 +14,7 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+import '@shelex/cypress-allure-plugin';
 import './order-commands'
 import './utils'
 // Alternatively you can use CommonJS syntax:
