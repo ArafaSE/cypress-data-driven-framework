@@ -15,7 +15,7 @@
         "isNewCustomer": false, 
         "productNum": 123,
         "colorsNumbers": [3, 4], 
-        "productSize": 6,
+        "productSize": 5,
         "name": "Joe",
         "email": "joe.adrian@gmail.com", 
         "preferredContacts": ["email"], 

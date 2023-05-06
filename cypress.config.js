@@ -3,6 +3,10 @@ const xlsx = require('node-xlsx');
 
 module.exports = defineConfig({
   e2e: {
+    baseUrl: 'https://docs.google.com/forms/d/e/',
+    screenshotOnRunFailure: true,
+    video: true,
+    videoUploadOnPasses: false,
     retries:
     {
       runMode: 1,
@@ -23,9 +27,5 @@ module.exports = defineConfig({
         }
       });
     },
-    baseUrl: 'https://docs.google.com/forms/d/e/',
-    screenshotOnRunFailure: true,
-    video: true,
-    videoUploadOnPasses: false,
   },
 });

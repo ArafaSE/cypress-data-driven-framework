@@ -132,3 +132,4 @@ dist
 # cypress test output
 screenshots/
 videos/
+*.mp4
