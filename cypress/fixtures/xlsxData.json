@@ -24,7 +24,7 @@
       "2",
       "3"
     ],
-    "productSize": 6,
+    "productSize": 5,
     "name": "Joe",
     "email": "joe.adrian@gmail.com",
     "preferredContacts": [
@@ -33,5 +33,22 @@
     "Questions": "Need it with fastest delivery",
     "deliveryDate": "2023-05-15",
     "deliveryTime": "03:45"
+  },
+  {
+    "isNewCustomer": false,
+    "productNum": 118,
+    "colorsNumbers": [
+      "1",
+      "2"
+    ],
+    "productSize": 4,
+    "name": "Charl",
+    "email": "charl.basta@gmail.com",
+    "preferredContacts": [
+      "email"
+    ],
+    "Questions": "Need it with fastest delivery",
+    "deliveryDate": "2023-05-17",
+    "deliveryTime": "05:45"
   }
 ]

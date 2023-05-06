@@ -1,5 +1,6 @@
 const { defineConfig } = require("cypress");
 const xlsx = require('node-xlsx');
+const fs = require('fs');
 
 module.exports = defineConfig({
   e2e: {
@@ -18,7 +19,7 @@ module.exports = defineConfig({
         parseXlsx({filePath}){
             return new Promise((resolve, reject) => {
                 try{
-                    const jsonData = xlsx.parse(filePath)[0].data;
+                    const jsonData = xlsx.parse(fs.readFileSync(filePath));
                     resolve(jsonData);
                 } catch (e){
                     reject(e);
