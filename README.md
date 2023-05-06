@@ -27,7 +27,7 @@ Or run using cypress npx
 npx cypress run
 ``` 
 
-## The Reports :tada:
+## The Reports :page_facing_up:
 - Cypress generated **mocha** report by default and you can check the status in the terminal directly
 ![](./img/mochaReport.png)
 - The project also use the **Allure** report for generating the reports after running
@@ -57,6 +57,6 @@ Or If you are a lucky man and run on **Mac** it's only one command:
 This will open the browser tap contains an html report with a lot of details including test steps, logs, and screenshot/videos for the failed tests 
 ![](./img/allureReport.png) 
 
-## CI/CD :cloud:
+## CI/CD :electron:
 The test cases are integrated to the GitHub actions workflow, running on a separate job 'e2e-tests' you can find all the workflow history in GitHub Actions tap
-![](./img/githubActionsReport.png)  
+![](./img/githubActionReport.png)
