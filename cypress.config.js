@@ -11,8 +11,8 @@ module.exports = defineConfig({
     videoUploadOnPasses: false,
     retries:
     {
-      runMode: 1,
-      openMode: 1,
+      runMode: 2,
+      openMode: 2,
     },
     setupNodeEvents(on, config) {
       // implement node event listeners here

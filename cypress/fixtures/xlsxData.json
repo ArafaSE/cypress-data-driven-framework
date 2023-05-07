@@ -36,7 +36,59 @@
   },
   {
     "isNewCustomer": false,
-    "productNum": 118,
+    "productNum": 119,
+    "colorsNumbers": [
+      "1",
+      "3"
+    ],
+    "productSize": 4,
+    "name": "Sami",
+    "email": "sami.basta@gmail.com",
+    "preferredContacts": [
+      "email"
+    ],
+    "Questions": "Need it with fastest delivery",
+    "deliveryDate": "2023-05-17",
+    "deliveryTime": "05:45"
+  },
+  {
+    "isNewCustomer": true,
+    "productNum": 229,
+    "colorsNumbers": [
+      "1",
+      "4"
+    ],
+    "productSize": 4,
+    "name": "Mohamed",
+    "email": "mohamed.arafa.swt@gmail.com",
+    "preferredContacts": [
+      "email",
+      "Phone"
+    ],
+    "Questions": "Do you have a return policy?",
+    "deliveryDate": "2023-05-10",
+    "deliveryTime": "12:30"
+  },
+  {
+    "isNewCustomer": false,
+    "productNum": 112,
+    "colorsNumbers": [
+      "2",
+      "3"
+    ],
+    "productSize": 5,
+    "name": "Joe",
+    "email": "joe.adrian@gmail.com",
+    "preferredContacts": [
+      "email"
+    ],
+    "Questions": "Need it with fastest delivery",
+    "deliveryDate": "2023-05-15",
+    "deliveryTime": "03:45"
+  },
+  {
+    "isNewCustomer": false,
+    "productNum": 110,
     "colorsNumbers": [
       "1",
       "2"
@@ -50,5 +102,75 @@
     "Questions": "Need it with fastest delivery",
     "deliveryDate": "2023-05-17",
     "deliveryTime": "05:45"
+  },
+  {
+    "isNewCustomer": true,
+    "productNum": 227,
+    "colorsNumbers": [
+      "1",
+      "4"
+    ],
+    "productSize": 4,
+    "name": "Mohamed",
+    "email": "mohamed.arafa.swt@gmail.com",
+    "preferredContacts": [
+      "email",
+      "Phone"
+    ],
+    "Questions": "Do you have a return policy?",
+    "deliveryDate": "2023-05-10",
+    "deliveryTime": "12:30"
+  },
+  {
+    "isNewCustomer": false,
+    "productNum": 128,
+    "colorsNumbers": [
+      "2",
+      "3"
+    ],
+    "productSize": 5,
+    "name": "Joe",
+    "email": "joe.adrian@gmail.com",
+    "preferredContacts": [
+      "email"
+    ],
+    "Questions": "Need it with fastest delivery",
+    "deliveryDate": "2023-05-15",
+    "deliveryTime": "03:45"
+  },
+  {
+    "isNewCustomer": false,
+    "productNum": 145,
+    "colorsNumbers": [
+      "1",
+      "2"
+    ],
+    "productSize": 4,
+    "name": "Charl",
+    "email": "charl.basta@gmail.com",
+    "preferredContacts": [
+      "email"
+    ],
+    "Questions": "Need it with fastest delivery",
+    "deliveryDate": "2023-05-17",
+    "deliveryTime": "05:45"
+  },
+  {
+    "isNewCustomer": true,
+    "productNum": 235,
+    "colorsNumbers": [
+      "1",
+      "4"
+    ],
+    "productSize": 4,
+    "name": "Mohamed",
+    "email": "mohamed.arafa.swt@gmail.com",
+    "preferredContacts": [
+      "email",
+      "Phone"
+    ],
+    "Questions": "Do you have a return policy?",
+    "deliveryDate": "2023-05-10",
+    "deliveryTime": "12:30"
   }
 ]
